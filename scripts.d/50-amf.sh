@@ -4,7 +4,7 @@ SCRIPT_REPO="https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git"
 SCRIPT_COMMIT="d0b3e6dd544a5f207bb6a12a1ecb98532491176a"
 
 ffbuild_enabled() {
-    return 0
+    return -1
 }
 
 ffbuild_dockerdl() {
